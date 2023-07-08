@@ -77,7 +77,7 @@ class App:
       self.select()
     else:
       notice_result(self.hands)
-      
+
   @staticmethod
   def conv_int(card):
     if card in App.alp:
